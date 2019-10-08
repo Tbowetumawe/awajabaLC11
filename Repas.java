@@ -7,4 +7,21 @@ class Repas
 		this.numero=numero;
 		this.date=date;
 	}
+	
+	public int getNumero(){
+		
+	}
+	
+	public int SetNumero(){
+		return numero;
+	}
+	
+	
+	public LocalDate getDate(){
+		
+	}
+	
+	public LocalDate setDate(){
+		return date;
+	}
 };
