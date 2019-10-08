@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Repas
 {
 	int numero ;
@@ -9,16 +11,16 @@ class Repas
 	}
 	
 	public int getNumero(){
-		
+		return numero
 	}
 	
-	public int SetNumero(){
-		return numero;
+	public int SetNumero(int numero){
+		this.numero=numero;
 	}
 	
 	
-	public LocalDate getDate(){
-		
+	public LocalDate getDate(LocalDate date){
+		this.date=date;
 	}
 	
 	public LocalDate setDate(){
