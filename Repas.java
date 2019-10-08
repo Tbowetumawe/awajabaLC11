@@ -9,19 +9,20 @@ class Repas
 	}
 	
 	public int getNumero(){
+		return numero;
 		
 	}
 	
-	public int SetNumero(){
-		return numero;
+	public int SetNumero(int numero){
+		this.numero;
 	}
 	
 	
 	public LocalDate getDate(){
-		
+		return date;
 	}
 	
-	public LocalDate setDate(){
-		return date;
+	public LocalDate setDate(date LocalDate){
+		this.date;
 	}
 };
